@@ -2,7 +2,7 @@
 
 ## 🚀 Backend Developer | Software Architect | Software Craftsman
 
-> *Building scalable, production-ready applications with modern technologies for You. Swifltky and reliably*
+> *Building scalable, production-ready applications with modern technologies for You. Swiflty and reliably*
 
 ---
 
@@ -10,26 +10,51 @@
 
 ```mermaid
 graph TD
-    A[.NET 9 & C#] -->|Backend APIs| B[REST & GraphQL]
-    A -->|Authentication| C[JWT, OAuth]
-    A -->|Testing| D[xUnit, Moq]
-    A -->|Architecture| E[Clean Architecture, DDD, CQRS]
-    A -->|DevOps| F[Docker, GitHub Actions, CI/CD]
-    A -->|Docs| G[OpenAPI, Swagger, Markdown]
-    A -->|IoT| H[ESP32, Arduino, PlatformIO]
-    H --> I[Sensor Integration]
-    H --> J[WiFi/Bluetooth]
-    H --> K[Cloud Data]
-    F --> L[Monitoring, Logging]
-    F --> M[Health Checks]
-    B --> N[Discord Bots]
-    B --> O[3rd Party Integrations]
-    style A fill:#e1f5fe
-    style H fill:#ffe0b2
-    style F fill:#f3e5f5
-    style B fill:#e8f5e8
-    style D fill:#fce4ec
-    style E fill:#fff3e0
+    Backend[Backend]
+    DevOps[DevOps]
+    IoT[IoT & Hardware]
+    API[API & Integration]
+    Docs[Docs]
+    Testing[Testing]
+
+    Backend --> B1[.NET 9 & C#]
+    Backend --> B2[Clean Architecture]
+    Backend --> B3[DDD, CQRS]
+    Backend --> B4[Entity Framework Core]
+    Backend --> B5[PostgreSQL]
+    Backend --> B6[Authentication: JWT, OAuth]
+
+    DevOps --> D1[Docker]
+    DevOps --> D2[GitHub Actions]
+    DevOps --> D3[CI/CD]
+    DevOps --> D4[Monitoring, Logging]
+    DevOps --> D5[Health Checks]
+
+    IoT --> I1[ESP32]
+    IoT --> I2[Arduino, PlatformIO]
+    IoT --> I3[Sensor Integration]
+    IoT --> I4[WiFi/Bluetooth]
+    IoT --> I5[Cloud Data]
+
+    API --> A1[REST]
+    API --> A2[GraphQL]
+    API --> A3[Discord Bots]
+    API --> A4[3rd Party Integrations]
+
+    Docs --> G1[OpenAPI]
+    Docs --> G2[Swagger]
+    Docs --> G3[Markdown]
+
+    Testing --> T1[xUnit]
+    Testing --> T2[Moq]
+    Testing --> T3[TDD]
+
+    style Backend fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
+    style DevOps fill:#8e24aa,stroke:#fff,stroke-width:2px,color:#fff
+    style IoT fill:#ffb300,stroke:#fff,stroke-width:2px,color:#222
+    style API fill:#388e3c,stroke:#fff,stroke-width:2px,color:#fff
+    style Docs fill:#fbc02d,stroke:#fff,stroke-width:2px,color:#222
+    style Testing fill:#e53935,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
 ---
@@ -99,9 +124,18 @@ flowchart TD
     J --> K[🚀 Full Development]
     K --> L[🎯 Deployment & Success!]
     
-    style A fill:#e3f2fd
-    style G fill:#f3e5f5
-    style L fill:#e8f5e8
+    style A fill:#222,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#8e24aa,stroke:#fff,stroke-width:2px,color:#fff
+    style L fill:#388e3c,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#e53935,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#ffb300,stroke:#fff,stroke-width:2px,color:#222
+    style F fill:#fbc02d,stroke:#fff,stroke-width:2px,color:#222
+    style H fill:#222,stroke:#fff,stroke-width:1.5px,color:#fff
+    style I fill:#222,stroke:#fff,stroke-width:1.5px,color:#fff
+    style J fill:#222,stroke:#fff,stroke-width:1.5px,color:#fff
+    style K fill:#222,stroke:#fff,stroke-width:1.5px,color:#fff
     
     click G "mailto:contact@mail.pindej.cz" "Send me an email!"
 ```
@@ -187,11 +221,23 @@ graph TD
     E --> P[Middleware]
     E --> Q[API Endpoints]
     
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
+    style A fill:#222,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#388e3c,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#8e24aa,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#ffb300,stroke:#fff,stroke-width:2px,color:#222
+    style F fill:#1976d2,stroke:#fff,stroke-width:1.5px,color:#fff
+    style G fill:#1976d2,stroke:#fff,stroke-width:1.5px,color:#fff
+    style H fill:#1976d2,stroke:#fff,stroke-width:1.5px,color:#fff
+    style I fill:#388e3c,stroke:#fff,stroke-width:1.5px,color:#fff
+    style J fill:#388e3c,stroke:#fff,stroke-width:1.5px,color:#fff
+    style K fill:#388e3c,stroke:#fff,stroke-width:1.5px,color:#fff
+    style L fill:#8e24aa,stroke:#fff,stroke-width:1.5px,color:#fff
+    style M fill:#8e24aa,stroke:#fff,stroke-width:1.5px,color:#fff
+    style N fill:#8e24aa,stroke:#fff,stroke-width:1.5px,color:#fff
+    style O fill:#ffb300,stroke:#fff,stroke-width:1.5px,color:#222
+    style P fill:#ffb300,stroke:#fff,stroke-width:1.5px,color:#222
+    style Q fill:#ffb300,stroke:#fff,stroke-width:1.5px,color:#222
 ```
 
 - **Clean Architecture** with clear separation of concerns
@@ -248,9 +294,18 @@ flowchart LR
     
     K --> L[🚀 Deployment Ready!]
     
-    style A fill:#e1f5fe
-    style L fill:#c8e6c9
-    style B fill:#fff3e0
+    style A fill:#222,stroke:#fff,stroke-width:2px,color:#fff
+    style L fill:#388e3c,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#ffb300,stroke:#fff,stroke-width:2px,color:#222
+    style E fill:#e53935,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#8e24aa,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#1976d2,stroke:#fff,stroke-width:1.5px,color:#fff
+    style H fill:#ffb300,stroke:#fff,stroke-width:1.5px,color:#222
+    style I fill:#e53935,stroke:#fff,stroke-width:1.5px,color:#fff
+    style J fill:#8e24aa,stroke:#fff,stroke-width:1.5px,color:#fff
+    style K fill:#222,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
 ```mermaid
@@ -270,10 +325,19 @@ graph LR
     K --> L[📈 Monitoring]
     L --> M[🎯 Production Ready]
     
-    style A fill:#e3f2fd
-    style E fill:#f3e5f5
-    style I fill:#e8f5e8
-    style M fill:#c8e6c9
+    style A fill:#222,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#8e24aa,stroke:#fff,stroke-width:2px,color:#fff
+    style I fill:#388e3c,stroke:#fff,stroke-width:2px,color:#fff
+    style M fill:#ffb300,stroke:#fff,stroke-width:2px,color:#222
+    style B fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#e53935,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#388e3c,stroke:#fff,stroke-width:2px,color:#fff
+    style H fill:#388e3c,stroke:#fff,stroke-width:2px,color:#fff
+    style J fill:#8e24aa,stroke:#fff,stroke-width:2px,color:#fff
+    style K fill:#8e24aa,stroke:#fff,stroke-width:2px,color:#fff
+    style L fill:#388e3c,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
 ---
