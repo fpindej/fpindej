@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Filip
 
-## 🚀 Backend Developer | Software Architect | Software Croftsman
+## 🚀 Backend Developer | Software Architect | Software Craftsman
 
 > *Building scalable, production-ready applications with modern technologies for You. Swiftly and reliably.*
 
