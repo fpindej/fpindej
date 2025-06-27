@@ -2,7 +2,7 @@
 
 ## 🚀 Backend Developer | Software Architect | Software Craftsman
 
-> *Building scalable, production-ready applications with modern technologies for You. Swiflty and reliably*
+> *Building scalable, production-ready applications with modern technologies for You. Swiftly and reliably*
 
 ---
 
