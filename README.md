@@ -9,7 +9,7 @@
 ### 🌟 Technologies I Love Working With
 
 ```mermaid
-graph TD
+graph LR
     Backend[Backend]
     DevOps[DevOps]
     IoT[IoT & Hardware]
@@ -17,37 +17,12 @@ graph TD
     Docs[Docs]
     Testing[Testing]
 
-    Backend --> B1[.NET 9 & C#]
-    Backend --> B2[Clean Architecture]
-    Backend --> B3[DDD, CQRS]
-    Backend --> B4[Entity Framework Core]
-    Backend --> B5[PostgreSQL]
-    Backend --> B6[Authentication: JWT, OAuth]
-
-    DevOps --> D1[Docker]
-    DevOps --> D2[GitHub Actions]
-    DevOps --> D3[CI/CD]
-    DevOps --> D4[Monitoring, Logging]
-    DevOps --> D5[Health Checks]
-
-    IoT --> I1[ESP32]
-    IoT --> I2[Arduino, PlatformIO]
-    IoT --> I3[Sensor Integration]
-    IoT --> I4[WiFi/Bluetooth]
-    IoT --> I5[Cloud Data]
-
-    API --> A1[REST]
-    API --> A2[GraphQL]
-    API --> A3[Discord Bots]
-    API --> A4[3rd Party Integrations]
-
-    Docs --> G1[OpenAPI]
-    Docs --> G2[Swagger]
-    Docs --> G3[Markdown]
-
-    Testing --> T1[xUnit]
-    Testing --> T2[Moq]
-    Testing --> T3[TDD]
+    Backend --> B[.NET & C#<br/>Clean Architecture<br/>DDD, CQRS<br/>EF Core, PostgreSQL<br/>JWT, OAuth]
+    DevOps --> D[Docker<br/>GitHub Actions<br/>CI/CD<br/>Monitoring, Logging]
+    IoT --> I[ESP32<br/>Arduino, PlatformIO<br/>Sensors<br/>WiFi/Bluetooth]
+    API --> A[REST<br/>GraphQL<br/>Discord Bots<br/>3rd Party Integrations]
+    Docs --> G[OpenAPI<br/>Swagger<br/>Markdown]
+    Testing --> T[xUnit<br/>Moq<br/>TDD]
 
     style Backend fill:#1976d2,stroke:#fff,stroke-width:2px,color:#fff
     style DevOps fill:#8e24aa,stroke:#fff,stroke-width:2px,color:#fff
@@ -65,7 +40,7 @@ graph TD
 mindmap
   root((Filip's Expertise))
     Backend Development
-      .NET Core APIs
+      APIs
       Clean Architecture
       Database Design
       Authentication & Security
@@ -159,7 +134,7 @@ I'm passionate about building robust, scalable applications and always excited t
 ### 💻 Tech Stack
 
 **Backend Development:**
-- **.NET 9** | C# | ASP.NET Core Web APIs
+- **Modern .NET** | C# | ASP.NET Core Web APIs
 - **Clean Architecture** & **Domain-Driven Design (DDD)**
 - **Entity Framework Core** with PostgreSQL
 - **JWT Authentication** & ASP.NET Core Identity
@@ -255,7 +230,7 @@ graph TD
 Building robust, scalable applications across the full technology stack:
 
 **Backend:**
-- **.NET 9 Web API** with Clean Architecture
+- **.NET Web API** with Clean Architecture
 - **PostgreSQL** with Entity Framework Core
 - **JWT Authentication** with refresh token support
 - **Docker containerization** for all environments
